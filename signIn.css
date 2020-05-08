@@ -1,0 +1,130 @@
+body{
+	overflow: hidden;
+	font-family: microsoft Yahei UI;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/awan.jpg);
+	background-size: cover;
+}
+h1{color: #FFC0CB}
+.susah{
+	display: flex;
+	flex-wrap: wrap;
+}
+.bgAja{
+	width: 50vw;
+	height: 0;
+	border-right: 15vw solid transparent;
+	border-top: 100vh solid #FFFDD0;
+}
+.kosong{
+	width: 35vw;
+	height: 0;
+	border-left: 15vw solid transparent;
+	border-bottom: 100vh solid rgba(0,0,0,0.3);
+	position: absolute;
+	right: 0;
+}
+.container{
+	margin: 0;
+	text-align: center;
+	padding: 10px 0 30px 0;
+	z-index: 2;
+	position: relative;
+	top: -90vh;
+	left: 7vw;
+}
+.kepala1{
+	padding: 10px 115px;
+	background-color: #FFF;
+	overflow: hidden;
+	width: 90vw;
+	border: 3px solid #FFC0CB;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.tags{
+	position: relative;
+	top: 4vh;
+	left: 33vw;
+}
+.tags a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 0 20px;
+}
+.tags a:hover{
+	color: pink;
+	transition: 0.3s;
+}
+.gabungin{
+	margin: 20px 10px;
+	display: flex;
+	padding: 30px;
+}
+.pink{
+	color: #F67BE6;
+}
+.ungu{
+	color: #CF5AF8;
+	margin-left: 5px;
+}
+.form{
+	width: 500px;
+	height: 200px;
+	margin: 0;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	padding: 20px;
+}
+.atas p, .bawah p{
+	position: relative;
+	left: -100px;
+	top: 36px;
+	font-weight: bold;
+}
+.atas input, .bawah input{
+	border: 1px solid #F67BE6;
+	position: relative;
+	left: 50px;
+}
+.atas{
+	position: relative;
+	top: -15px;
+}
+.bawah{
+	position: relative;
+	top: -30px;
+}
+.button button{
+	margin-top: 15px;
+	padding: 3px 110px;
+	cursor: pointer;
+	border: transparent;
+	background: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.newUser{
+	font-weight: bold;
+	padding-left: 12vw;
+	font-size: 18px;
+	text-align: left;
+}
+.newUser a{
+	text-decoration: none;
+}
+.foot{
+	width: 1450px;
+}
+.log img{
+	width: 75vw;
+	position: absolute;
+	right: -15vw;
+	top: 15vh;
+}

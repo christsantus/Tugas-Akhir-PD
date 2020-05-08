@@ -1,0 +1,366 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+h1{color: pink}
+.lanjut{position: relative; margin: auto; width: 1345px;}
+.kepala1, .kepala2, .footer{padding: 100px;}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row .col-lg-6{flex-wrap: 50%}
+.kepala1{
+	padding: 10px 115px;
+	background-color: #FFF;
+}
+.tags{
+	margin-left: 400px;
+	margin-top: 8px;
+}
+.tags a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 0 20px;
+}
+.tags a:hover{
+	color: pink;
+	transition: 0.3s;
+}
+.kepala2{background-color: pink; color: #FFF;padding:90px 110px 110px 110px;}
+.kepala2 .haha{
+	font-size: 16px;
+	text-align: center;
+	margin: 0 0 16px;
+}
+.pencarian{
+	color: #777;
+	font-size: 14px;
+	background-color: #FFF;
+	padding: 24px;
+	width: 730px;
+	margin: auto;
+}
+.cari{
+	background-color: #F9F9FF;
+	padding: 8px 12px;
+	width: 629px;
+	margin: auto;
+	border: 1px solid #eee;
+}
+.badan1{width: 50%; float: left; padding: 100px 0 100px 100px; display: block; background-color: #FFF;}
+.badan1 .stengah{
+	width: 100%;
+	float: left;
+	display: flex;
+	margin-bottom: 50px;
+}
+.stengah .dates{
+	background-color: #000;
+	display: box;
+	padding-top: 5px;
+	color: #FFF;
+	margin-right: 400px;
+	text-align-last: center;
+	position: absolute;
+	z-index: 1;
+	width: 80px;
+	height: 60px;
+	vertical-align: middle;
+}
+.badan1 .stengah .dates span{
+	font-weight: bold;
+	padding-top: 5px;
+	font-size: 24px;
+}
+.badan1 .stengah .dates p{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.foto .stengah img{
+	position: relative;
+	margin-bottom: 50px;
+}
+.aku{
+	display: block;
+	margin-left: 15px;
+}
+.aku h4 a{
+	text-decoration: none;
+	color: #222;
+	line-height: 2px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.aku h4 a:hover{
+	color: #007bff;
+}
+.aku .terserah{
+	margin-top: 30px;
+}
+.aku .terserah,.aku .hehe, .aku .jarak3{
+	line-height: 2px;
+	color: #777;
+}
+.aku .jarak3{
+	margin-bottom: 20px;
+}
+.aku .sukak{
+	color: #777;
+	float: left;
+}
+.aku .komen2{
+	color: #777;
+	float: right;
+}
+.buton .saya{
+	margin-left: 42.5%;
+	border-radius: 25px;
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	color: #FFF;
+	font-weight: bold;
+	background-color: #FF69B4;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.buton .saya:hover{
+	border: 1px solid  #FF69B4;
+	background-color: #FFF;
+	color:  #FF69B4;
+}
+.badan2{
+	width: 20%;
+	float: left;
+	margin: auto;
+	display: block;
+	background-color: #FFF;
+}
+.bag1{
+	margin-top: 80px;
+	padding:20px 20px 20px 0;
+}
+.bag1 .border1{
+	border: 1px solid #eee;
+	padding: 20px;
+	width: 320px;
+}
+.bag1 .border1 .tulis{
+	padding: 8px;
+	width: 300px;
+	border: 1px solid #eee;
+	background-color: #F9F9F9;
+}
+.bag2{
+	padding-top: 50px;
+}
+.border2{
+	border: 1px solid #eee;
+	text-align: center;
+	width: 360px;
+}
+.border2 h2{font-size: 16px; margin: 25px;}
+.border2 p{font-size: 14px; margin: 0 10px 16px; color: #777;}
+.border2 button{
+	border-radius: 22px;
+	background-color: #ddd;
+	color: #000;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	padding: 8px 12px;
+	width: 140px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+.border2 button:hover{
+	cursor: pointer;
+	background-color: pink;
+	border: 1px solid transparent;
+	color: #FFF;
+}
+.border2 i{
+	margin-right: 10px;
+}
+.bag3{padding-top: 30px}
+.border3{
+	border: 1px solid #eee;
+	width: 360px;
+}
+li{list-style-type: none; margin: 25px 0;}
+a{text-decoration: none;}
+.border3 h4{
+	font-size: 18px;
+	margin: 0 0 0 12px;
+	padding: 20px;
+	font-weight: 300;}
+.ape, .ape1{
+	font-size: 14px;
+	color: #777;
+	background-color: #F9F9FF;
+	line-height: 2px;
+	padding: 10px 200px 10px 10px;
+}
+.ape1{margin-bottom: 25px;}
+.ape:hover, .ape1:hover{
+	background-color: #000;
+	color: #FFF;
+	transition: 0.3s;
+}
+.bag4{padding-top: 30px;}
+.border4{
+	border: 1px solid #eee;
+	width: 320px;
+	padding: 20px;
+}
+.border4 h4{
+	margin: 0 0 0 12px;
+	padding: 20px 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+.border4 .prgr, .border4 .jarak{font-size: 14px;line-height: 2px; color: #222;}
+.prgr{margin-top: 20px;}
+.jarak{margin-bottom: 16px;}
+.jam{
+	font-size: 14px;
+	color: #777;
+	margin: 0 0 16px;
+}
+.bag5{padding-top: 30px;}
+.border5{
+	border: 1px solid #eee;
+	width: 320px;
+	padding: 20px;
+	margin: 0 0 40px;
+}
+.border5 h4, .border6 h4{
+	margin: 0 0 0 12px;
+	padding: 20px 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+.apex, .apex1{
+	color: #FFF;
+	background-color: #F9F9FF;
+	color: #777;
+	font-size: 14px;
+	margin: 0 0 10px;
+	padding: 10px 200px 10px 0;
+}
+.apex:hover, .apex1:hover{
+	background-color: #000;
+	color: #FFF;
+	transition: 0.3s;
+}
+.border6{
+	border: 1px solid #eee;
+	width: 320px;
+	margin: 0 0 40px;
+	padding: 20px 20px 180px 20px;
+}
+.awan{
+	color: #222;
+	font-size: 14px;
+	margin: 0 1px 10px;
+	padding: 10px;
+	background-color: #F9F9FF;
+	float: left;
+	border: 1px solid #ccc;
+}
+.awan:hover{
+	background-color: pink;
+	color: #FFF;
+	transition: 0.3s;
+	border: 1px solid transparent;
+}
+.footer{background-color: #222;}
+.footer .april, .footer .mei, .footer .juni{color: #FFF;}
+.april{
+	width: 25%;
+	float: left;
+}
+.april h6, .mei h6, .juni h6{
+	font-size: 18px;
+	margin: 0 0 25px 0;
+}
+.april .juli{
+	text-decoration: none;
+	color: #FFF;
+	line-height: 10px;
+}
+.mei{
+	width: 50%;
+	float: left;
+}
+.mei .masukin{
+	padding: 10px 120px 10px 10px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+}
+.mei .subret{
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #FF69B4;
+	border: 1px solid transparent;
+	color: #FFF;
+	font-weight: bold;
+}
+.mei .subret:hover{
+	cursor: pointer;
+	border: 1px solid  #FF69B4;
+	color:  #FF69B4;
+	background-color: #FFF;
+}
+.juni{
+	width: 25%;
+	float: left;
+}
+.agus .sept{
+	float: left;
+	margin: 3px 3px 0 3px;
+}
+.atas{margin-bottom: 200px;}
+.bawah{padding: 50px 0 20px 0;}
+.okt{
+	width: 75%;
+	float: left;
+	color: #777;
+}
+.okt a{text-decoration: none;color: #69B4FD}
+.nov{
+	width: 25%;
+	float: right;
+	text-align: right;
+}
+.sabit i{
+	background-color: #111;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: box;
+	color: #777;
+	padding-top: 15px;
+}
+.sabit i:hover{
+	color: #FFF;
+	background-color: pink;
+}
+.but{
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color:  #FF69B4;
+	border: 1px solid transparent;
+	color: #FFF;
+	font-weight: bold;
+}
+.but:hover{
+	cursor: pointer;
+	border: 1px solid  #FF69B4;
+	color: #FF69B4;
+	background-color: #FFF;
+}
