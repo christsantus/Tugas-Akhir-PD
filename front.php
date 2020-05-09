@@ -47,10 +47,10 @@
 						<span class="fa fa-star"></span>
 					</div>
 					<div class="nov">
-						<a href="#" class="sabit"><i class="fa fa-facebook"></i></a>
-						<a href="#" class="sabit"><i class="fa fa-twitter"></i></a>
-						<a href="#" class="sabit"><i class="fa fa-dribbble"></i></a>
-						<a href="#" class="sabit"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.instagram.com/christsantus2/" class="sabit"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.instagram.com/christsantus2/" class="sabit"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/christsantus2/" class="sabit"><i class="fa fa-dribbble"></i></a>
+						<a href="https://www.instagram.com/christsantus2/" class="sabit"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
 				<h4><a href="#">7 Rings</a></h4>
